@@ -6,11 +6,11 @@ require 'android_jidoka/version'
 Gem::Specification.new do |spec|
   spec.name          = "android_jidoka"
   spec.version       = AndroidJidoka::VERSION
-  spec.authors       = ["'onfi'"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.authors       = ["onfi"]
+  spec.email         = ["simodake@gmail.com"]
+  spec.summary       = %q{Oparation a android terminal.}
+  spec.description   = %q{Oparation from adb.}
+  spec.homepage      = "http://github.com/onfi/android_jidoka"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
